@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
     background-color: rgb(224, 224, 224);
     width: 25vw;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -35,4 +35,13 @@ body {
 }
 .row > p:hover {
     background-color: rgb(41, 141, 223);
+}
+.row.screen {
+    flex: 1.1;
+}
+.row.screen > p{
+    padding: 20px;
+    font-size: 50px;
+    background-color: gray;
+    text-align: end;
 }
