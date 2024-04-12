@@ -25,7 +25,6 @@ body {
 }
 .row > p {
     flex: 1;
-    background-color: rgb(97, 178, 253);
     margin: 10px;
     justify-content: space-evenly;
     border-radius: 10px;
@@ -33,7 +32,10 @@ body {
     align-content: center;
     border: 2px solid;
 }
-.row > p:hover {
+.number {
+    background-color: rgb(97, 178, 253);
+}
+.number:hover {
     background-color: rgb(41, 141, 223);
 }
 .row.screen {
@@ -44,4 +46,19 @@ body {
     font-size: 50px;
     background-color: gray;
     text-align: end;
+}
+.operator {
+    background-color: rgb(255, 145, 145);
+}
+.operator:hover {
+    background-color: rgb(243, 73, 73);
+}
+#btn-c:hover {
+    background-color: rgb(163, 160, 160);
+}
+#btn-result {
+    background-color: rgb(165, 255, 165);
+}
+#btn-result:hover {
+    background-color: rgb(89, 231, 89);
 }
